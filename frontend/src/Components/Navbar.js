@@ -1,19 +1,38 @@
 import React from 'react'
-import { Nav } from 'react-bootstrap'
+import './Navbar.css';
 
 export const Navbar = () => {
     return (
-        <React.Fragment>
-            <Nav className="justify-content-center" activeKey="/">
-                <Nav.Item href="/">Home</Nav.Item>
-                <Nav.Item href="/about">About</Nav.Item>
-                <Nav.Item href="/gallery">Gallery</Nav.Item>
-                <Nav.Item href="/events">Events</Nav.Item>
-                <Nav.Item href="/contribute">Contribute</Nav.Item>
-                <Nav.Item href="/contact">Contact Us</Nav.Item>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light justify-content-center">
 
-            </Nav>
+            <div classclass="container-fluid">
 
-        </React.Fragment>
+                <a class="navbar-brand active" href="/">Home</a>
+
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                        <a class="nav-link" href="/about">About</a>
+                        </li>
+                        <li class="nav-item">
+                        <a class="nav-link" href="/gallery">Gallery</a>
+                        </li>
+                        <li class="nav-item">
+                        <a class="nav-link" href="/events">Events</a>
+                        </li>
+                        <li class="nav-item">
+                        <a class="nav-link" href="/contribute">Contribute</a>
+                        </li>
+                        <li class="nav-item">
+                        <a class="nav-link" href="/contact">Contact Us</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
     )
 }
