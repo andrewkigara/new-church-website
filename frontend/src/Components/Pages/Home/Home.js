@@ -1,7 +1,7 @@
 import React from 'react';
 import worshipHands from '../../../assets/worshipHands.jpg';
 import './Home.css';
-import ModalSection from './ModalMission';
+import ModalMission from './ModalMission';
 
 export const Home = () => {
     return (
@@ -35,7 +35,19 @@ export const Home = () => {
                 </div>
             </div>
 
-            <ModalSection />
+            
+            <div className="container jumbotron jumb2 jumbotron-fluid jumbotron-image text-white shadow" >
+                <div className="container text-center">
+                    <br/>
+                    <br/>
+                    <h1 class="h1">Our Mission</h1>
+                    <p class="display-5">"My House shall be called a House of Worship for all nations"</p>
+                    <br />
+                    <br />
+                    <br />
+                    <ModalMission />
+                </div>
+            </div>
         </div>
     )
 }
