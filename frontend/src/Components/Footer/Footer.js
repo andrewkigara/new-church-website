@@ -12,10 +12,8 @@ export const Footer =()=>{
                 <br/>
             </div>
 
-            {/* Links */}
             <div className="row container container-fluid">
                 <div className="col ml-2">
-                    {/* Home, About */}
                     <ul>
                         <a className="foolinks" href="/"><li>Home</li></a>
                         <a className="foolinks" href="/about"><li>About Us</li></a>
@@ -23,7 +21,6 @@ export const Footer =()=>{
 
                 </div>
                 <div className="col ml-2">
-                    {/* Gallery, Events */}
                     <ul>
                         <a className="foolinks" href="/events"><li>Events</li></a>
                         <a className="foolinks" href="/gallery"><li>Gallery</li></a>
@@ -31,7 +28,6 @@ export const Footer =()=>{
 
                 </div>
                 <div className="col ml-2">
-                    {/* Contribute, Contact Us */}
                     <ul>
                         <a className="foolinks" href="/contact"><li>Contact Us</li></a>
                         <a className="foolinks" href="/contribute"><li>Contribute</li></a>
@@ -43,16 +39,13 @@ export const Footer =()=>{
             <hr />
 
             <div className="text-center justify-content-center">
-                {/* Links to Socials */}
                 <a href="https://www.gmail.com/"><button type="button" className="btn btn-light"><SiGmail/></button></a>
                 <a href="https://www.youtube.com/"><button type="button" className="btn btn-light"><SiYoutube/></button></a>
 
-                {/* Address */}
                 <a className="addy" href="https://goo.gl/maps/7P9PzJHCkRun3u1D9"><p><small>7111 Liberty Road, Baltimore, MD, 21207</small></p></a>
             </div>
 
             <div className="font-monospace fs-6 text-center">
-                {/* Copyright */}
                 <p><small>Copyright &#xA9; {(new Date().getFullYear())} Jesus Christ is the Answer Ministries - All Rights Reserved.</small></p>
             </div>
             <hr />

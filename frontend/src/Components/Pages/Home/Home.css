@@ -11,6 +11,18 @@
   height: 80vh;
   font-family: "Handlee", cursive;
   font-size: larger;
+  border: 1px;
+  border-radius: 10px;
+}
+
+.card0 {
+  border: 1px;
+  border-radius: 10px;
+}
+
+.cardImg {
+  border: 1px;
+  border-radius: 10px;
 }
 
 .jumb2 {
@@ -24,4 +36,6 @@
   height: 56vh;
   font-family: "Handlee", cursive;
   font-size: larger;
+  border: 1px;
+  border-radius: 10px;
 }
