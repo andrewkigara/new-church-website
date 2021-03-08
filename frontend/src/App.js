@@ -23,9 +23,6 @@ class App extends Component {
   render() {
     return (
       <React.Fragment>
-        {/* <Layout> */}
-
-
         {/* Navbar */}
         <Navbar />
 
@@ -45,9 +42,6 @@ class App extends Component {
 
         {/* Footer */}
         <Footer />
-
-
-        {/* </Layout> */}
       </React.Fragment>
     )
   }
