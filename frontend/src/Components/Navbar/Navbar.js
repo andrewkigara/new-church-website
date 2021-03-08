@@ -1,4 +1,5 @@
 import React from 'react';
+import {RiMenu4Fill} from 'react-icons/ri';
 import './Navbar.css';
 
 export const Navbar = () => {
@@ -6,8 +7,8 @@ export const Navbar = () => {
     return (
         <div class="mx-auto navvy">
             <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample08" aria-controls="navbarsExample08" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
+                <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarsExample08" aria-controls="navbarsExample08" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class=""><RiMenu4Fill/></span>
                 </button>
 
                 <div class="collapse navbar-collapse justify-content-md-center" id="navbarsExample08">
