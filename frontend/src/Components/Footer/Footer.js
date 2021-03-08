@@ -3,7 +3,7 @@ import './Footer.css';
 import { SiGmail,SiYoutube } from "react-icons/si";
 
 
-export const Footer =()=>{
+export const Footer = () =>{
     return (
         <div className="foo footer container container-fluid">
             <div className="container text-center">
