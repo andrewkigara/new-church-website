@@ -4,9 +4,9 @@ import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import './App.css';
 
 // ---- Components ---- //
-//import { Layout } from './Components/Layout';
+// import { Layout } from './Components/Layout';
 import { Navbar } from './Components/Navbar';
-// import { Footer } from './Components/Footer';
+import { Footer } from './Components/Footer';
 
 // ---- Pages ---- //
 import { Home } from './Components/Pages/Home';
@@ -41,7 +41,7 @@ class App extends Component {
 
 
         {/* Footer */}
-        {/* <Footer /> */}
+        <Footer />
       </React.Fragment>
     )
   }

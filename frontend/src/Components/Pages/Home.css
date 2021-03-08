@@ -1,0 +1,27 @@
+@import url("https://fonts.googleapis.com/css2?family=Handlee&family=Sacramento&display=swap");
+
+.jumb0 {
+  background-image: url("../../assets/worshipHands.jpg");
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  height: 80vh;
+  font-family: "Handlee", cursive;
+  font-size: larger;
+}
+
+.jumb2 {
+  background-image: url("../../assets/worshipHands.jpg");
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  height: 56vh;
+  font-family: "Handlee", cursive;
+  font-size: larger;
+}
