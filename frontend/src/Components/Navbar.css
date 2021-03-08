@@ -1,15 +1,6 @@
-/* @import url("https://fonts.googleapis.com/css2?family=Poiret+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poiret+One&display=swap");
 
 .navbar {
   font-family: "Poiret One", cursive;
-  font-size: 1.5rem;
+  font-size: 1.65rem;
 }
-.navText {
-  text-decoration: none;
-}
-.navText:hover {
-  text-decoration-line: underline;
-}
-.navbar-brand {
-  font-size: 1.75rem;
-} */
