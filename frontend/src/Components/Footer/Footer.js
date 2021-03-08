@@ -39,8 +39,8 @@ export const Footer = () =>{
             <hr />
 
             <div className="text-center justify-content-center">
-                <a href="https://www.gmail.com/"><button type="button" className="btn btn-light"><SiGmail/></button></a>
-                <a href="https://www.youtube.com/"><button type="button" className="btn btn-light"><SiYoutube/></button></a>
+                <a href="mailto:someone@yoursite.com?subject=Mail from JCA Ministries Website"><button type="button" className="btn btn-light"><SiGmail/></button></a>
+                <a href="https://www.youtube.com/channel/UCRNl1ezd_Ew3IUQkwZ70zcw"><button type="button" className="btn btn-light"><SiYoutube/></button></a>
 
                 <a className="addy" href="https://goo.gl/maps/7P9PzJHCkRun3u1D9"><p><small>7111 Liberty Road, Baltimore, MD, 21207</small></p></a>
             </div>
