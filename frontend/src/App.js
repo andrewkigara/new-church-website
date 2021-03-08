@@ -5,16 +5,16 @@ import './App.css';
 
 // ---- Components ---- //
 // import { Layout } from './Components/Layout';
-import { Navbar } from './Components/Navbar';
-import { Footer } from './Components/Footer';
+import { Navbar } from './Components/Navbar/Navbar';
+import { Footer } from './Components/Footer/Footer';
 
 // ---- Pages ---- //
-import { Home } from './Components/Pages/Home';
-import { About } from './Components/Pages/About';
-import { Gallery } from './Components/Pages/Gallery';
-import { Events } from './Components/Pages/Events';
-import { Contribute } from './Components/Pages/Contribute';
-import { Contact } from './Components/Pages/Contact';
+import { Home } from './Components/Pages/Home/Home';
+import { About } from './Components/Pages/About/About';
+import { Gallery } from './Components/Pages/Gallery/Gallery';
+import { Events } from './Components/Pages/EventsPage/Events';
+import { Contribute } from './Components/Pages/Contribute/Contribute';
+import { Contact } from './Components/Pages/Contact/Contact';
 import { NoMatch } from './Components/Pages/NoMatch';
 
 

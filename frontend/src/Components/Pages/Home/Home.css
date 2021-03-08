@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Handlee&family=Sacramento&display=swap");
 
 .jumb0 {
-  background-image: url("../../assets/worshipHands.jpg");
+  background-image: url("../../../assets/worshipHands.jpg");
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
@@ -14,7 +14,7 @@
 }
 
 .jumb2 {
-  background-image: url("../../assets/worshipHands.jpg");
+  background-image: url("../../../assets/worshipHands.jpg");
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;

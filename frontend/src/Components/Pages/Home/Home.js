@@ -1,5 +1,5 @@
 import React from 'react';
-import worshipHands from '../../assets/worshipHands.jpg';
+import worshipHands from '../../../assets/worshipHands.jpg';
 import './Home.css';
 
 export const Home = () => {
