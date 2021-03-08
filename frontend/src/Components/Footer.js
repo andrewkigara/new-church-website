@@ -1,45 +1,61 @@
 import React from 'react';
 import './Footer.css';
+import { SiGmail,SiYoutube } from "react-icons/si";
+
 
 export const Footer =()=>{
     return (
-        <div className="footer container container-fluid">
+        <div className="foo footer container container-fluid">
             <div className="container text-center">
-                <h1>
-                    Jesus Christ is The Answer Ministries
-                </h1>
-
+                <br/>
+                <h3>Jesus Christ is The Answer Ministries</h3>
+                <br/>
             </div>
 
             {/* Links */}
-            <div className="row">
-                <div className="col">
+            <div className="row container container-fluid">
+                <div className="col ml-2">
                     {/* Home, About */}
                     <ul>
-                        <li>hi</li>
-                        <li>hi</li>
-                        <li>hi</li>
+                        <a className="foolinks" href="/"><li>Home</li></a>
+                        <a className="foolinks" href="/about"><li>About Us</li></a>
                     </ul>
 
                 </div>
-                <div className="col">
+                <div className="col ml-2">
                     {/* Gallery, Events */}
+                    <ul>
+                        <a className="foolinks" href="/events"><li>Events</li></a>
+                        <a className="foolinks" href="/gallery"><li>Gallery</li></a>
+                    </ul>
 
                 </div>
-                <div className="col">
+                <div className="col ml-2">
                     {/* Contribute, Contact Us */}
+                    <ul>
+                        <a className="foolinks" href="/contact"><li>Contact Us</li></a>
+                        <a className="foolinks" href="/contribute"><li>Contribute</li></a>
+                    </ul>
 
                 </div>
             </div>
 
-            <div>
-                {/* Copyright */}
+            <hr />
+
+            <div className="text-center justify-content-center">
+                {/* Links to Socials */}
+                <a href="https://www.gmail.com/"><button type="button" className="btn btn-light"><SiGmail/></button></a>
+                <a href="https://www.youtube.com/"><button type="button" className="btn btn-light"><SiYoutube/></button></a>
+
+                {/* Address */}
+                <a className="addy" href="https://goo.gl/maps/7P9PzJHCkRun3u1D9"><p><small>7111 Liberty Road, Baltimore, MD, 21207</small></p></a>
             </div>
 
-            <div>
-                {/* Links to Socials */}
-                {/* Address */}
+            <div className="font-monospace fs-6 text-center">
+                {/* Copyright */}
+                <p><small>Copyright &#xA9; {(new Date().getFullYear())} Jesus Christ is the Answer Ministries - All Rights Reserved.</small></p>
             </div>
+            <hr />
         </div>
     )
 }

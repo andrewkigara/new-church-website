@@ -18,7 +18,6 @@ import { Contact } from './Components/Pages/Contact';
 import { NoMatch } from './Components/Pages/NoMatch';
 
 
-
 class App extends Component {
   render() {
     return (
@@ -38,7 +37,6 @@ class App extends Component {
             <Route component={NoMatch} />
           </Switch>
         </Router>
-
 
         {/* Footer */}
         <Footer />

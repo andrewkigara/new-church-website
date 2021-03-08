@@ -25,10 +25,10 @@ export const Home = () => {
                     <div class="card-body text-center">
                         <h5 class="card-title h2">Join Our Services</h5>
                         <p class="card-text">Sunday Service | Every Sunday | 9:00AM EST</p>
-                        <p class="card-text"><small class="text-muted"> href="/events" Learn more ...</small></p>
+                        <a href="/events"><p class="card-text"><small class="text-muted"> Learn more ...</small></p></a>
                         <hr/>
                         <p class="card-text">Join Our Upcoming Events</p>
-                        <p class="card-text"><small class="text-muted">href="/events" Calendar</small></p>
+                        <a href="/events"><p class="card-text"><small class="text-muted"> Calendar</small></p></a>
                     </div>
                     </div>
                 </div>
