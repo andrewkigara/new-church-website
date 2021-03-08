@@ -5,11 +5,12 @@
 }
 
 .storyContents {
+  margin-top: 3%;
   border: 1px;
   border-radius: 10px;
 }
 
-.jumbotron {
+.jumboStory {
   background-image: url("../../../assets/change.jpg");
   background-size: cover;
   background-repeat: no-repeat;

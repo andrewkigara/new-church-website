@@ -5,7 +5,7 @@ import { SiGmail,SiYoutube } from "react-icons/si";
 
 export const Footer = () =>{
     return (
-        <div className="foo footer container container-fluid">
+        <div className="foo footer container container container-fluid mt-3">
             <div className="container text-center">
                 <br/>
                 <h3>Jesus Christ is The Answer Ministries</h3>
