@@ -1,0 +1,20 @@
+@import url("https://fonts.googleapis.com/css2?family=Handlee&family=Sacramento&display=swap");
+
+.pageTitle {
+  font-family: "Handlee", cursive;
+}
+
+.storyContents {
+  border: 1px;
+  border-radius: 10px;
+}
+
+.jumbotron {
+  background-image: url("../../../assets/change.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: auto;
+  height: 40vh;
+  border: 1px;
+  border-radius: 10px;
+}

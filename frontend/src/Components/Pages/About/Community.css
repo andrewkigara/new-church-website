@@ -1,0 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Handlee&family=Sacramento&display=swap');
+
+.communityContents {
+    margin-top: 3%;
+    border: 1px;
+    border-radius: 10px;
+}
+.pageTitle{
+    font-family: 'Handlee', cursive;
+}

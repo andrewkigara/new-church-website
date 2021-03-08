@@ -21,9 +21,9 @@ export const Navbar = () => {
                             About Us
                             </a>
                             <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                            <a class="dropdown-item" href="/about">Our Story</a>
-                            <a class="dropdown-item" href="/about">Our Community</a>
-                            <a class="dropdown-item" href="/about">Our Ministries</a>
+                            <a class="dropdown-item" href="/story">Our Story</a>
+                            <a class="dropdown-item" href="/community">Our Community</a>
+                            <a class="dropdown-item" href="/ministries">Our Ministries</a>
                             </div>
                         </li>
                         <li class="nav-item">

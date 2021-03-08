@@ -10,6 +10,9 @@ import { Footer } from './Components/Footer/Footer';
 // ---- Pages ---- //
 import { Home } from './Components/Pages/Home/Home';
 import { About } from './Components/Pages/About/About';
+import { Story } from './Components/Pages/About/Story';
+import { Community } from './Components/Pages/About/Community';
+import { Ministries } from './Components/Pages/About/Ministries';
 import { Gallery } from './Components/Pages/Gallery/Gallery';
 import { Events } from './Components/Pages/EventsPage/Events';
 import { Contribute } from './Components/Pages/Contribute/Contribute';
@@ -29,6 +32,9 @@ class App extends Component {
           <Switch>
             <Route exact path="/" component={Home} />
             <Route path="/about" component={About} />
+            <Route path="/story" component={Story}/>
+            <Route path="/community" component={Community}/>
+            <Route path="/ministries" component={Ministries}/>
             <Route path="/gallery" component={Gallery} />
             <Route path="/events" component={Events} />
             <Route path="/contribute" component={Contribute} />
