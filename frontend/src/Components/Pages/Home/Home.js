@@ -25,7 +25,7 @@ export const Home = () => {
                     <div class="col-md-8">
                     <div class="card-body text-center">
                         <h5 class="card-title h2">Join Our Services</h5>
-                        <p class="card-text">Sunday Service | Every Sunday | 9:00AM EST</p>
+                        <p class="card-text">Sunday Service | Every Sunday | 11:00AM EST</p>
                         <a href="/events"><p class="card-text"><small class="text-muted"> Learn more ...</small></p></a>
                         <hr/>
                         <p class="card-text">Join Our Upcoming Events</p>
@@ -51,3 +51,12 @@ export const Home = () => {
         </div>
     )
 }
+
+
+// TODO
+// Bible study at 10am - 10:45
+
+// Hosting details
+// Leadership
+
+// Automatically fetch embbed link

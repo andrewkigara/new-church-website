@@ -42,7 +42,7 @@ export const Footer = () =>{
                 <a href="mailto:someone@yoursite.com?subject=Mail from JCA Ministries Website"><button type="button" className="btn btn-light"><SiGmail/></button></a>
                 <a href="https://www.youtube.com/channel/UCRNl1ezd_Ew3IUQkwZ70zcw"><button type="button" className="btn btn-light"><SiYoutube/></button></a>
 
-                <a className="addy" href="https://goo.gl/maps/7P9PzJHCkRun3u1D9"><p><small>7111 Liberty Road, Baltimore, MD, 21207</small></p></a>
+                <a className="addy" href="https://goo.gl/maps/18CJ9cEujVQrJibB6"><p><small>4512 Old Court Road, Pikesville, MD, 21208</small></p></a>
             </div>
 
             <div className="font-monospace fs-6 text-center">
