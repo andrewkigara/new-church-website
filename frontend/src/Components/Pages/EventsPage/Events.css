@@ -1,0 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Handlee&family=Sacramento&display=family=Roboto&display=swap');
+
+.evTitle {
+    font-family: 'Handlee', cursive;
+}
+
+.evCard {
+    border: 1px;
+    border-radius: 10px;
+}
